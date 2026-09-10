@@ -22,28 +22,27 @@
         <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#positions">Positions</a>
-        <a href="#doctors">For Doctors</a>
+        <a href="#services">For Doctors</a>
         <a href="#colleges">For Colleges</a>
         <a href="#specialties">Specialties</a>
         <a href="#contact">Contact</a>
       </nav>
       <div class="header-actions">
-        <button class="menu-toggle" type="button" aria-label="Open menu">
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
-        <a class="btn btn-outline" href="#register">I'm a College</a>
-        <a class="btn btn-gold" href="#register">Register</a>
+        <a class="btn btn-outline" href="#colleges">I'm a College</a>
+        <a class="btn btn-gold" href="#contact">Contact</a>
       </div>
     </div>
     <nav class="mobile-nav container" aria-label="Mobile">
       <a href="#about">About</a>
       <a href="#services">Services</a>
       <a href="#positions">Positions</a>
-      <a href="#doctors">For Doctors</a>
+      <a href="#services">For Doctors</a>
       <a href="#colleges">For Colleges</a>
       <a href="#specialties">Specialties</a>
       <a href="#contact">Contact</a>
-      <a href="#register">Register</a>
     </nav>
   </header>
 
@@ -55,12 +54,12 @@
         <p class="hero-copy">Connecting medical colleges with qualified doctors across all specialties — Clinical, Non-Clinical, Para-Clinical, and Super Specialty — in every state.</p>
         <p class="hero-note">Five Star Healthcare Solutions (OPC) Private Limited is a doctor-led consultancy built around people first, talent solutions, and stronger institutions.</p>
         <div class="hero-ctas">
-          <a class="btn btn-navy" href="#doctors">I'm a Doctor — Find Positions</a>
+          <a class="btn btn-navy" href="#services">I'm a Doctor — Find Positions</a>
           <a class="btn btn-outline" href="#colleges">I'm a College — Hire Faculty</a>
         </div>
       </div>
       <div class="container trust-bar">
-        <span class="chip">Doctor-Led Consultancy</span>
+        <span>Doctor-Led Consultancy</span>
         <span>People First</span>
         <span>Talent Solutions</span>
         <span>All Specialties</span>
@@ -69,16 +68,42 @@
       </div>
     </section>
 
-    <section class="photo-band" aria-label="Five Star in medical education">
-      <div class="container photo-band-grid">
-        <figure>
-          <img src="assets/images/faculty-doctors.jpg" alt="Medical faculty discussing academic placements">
-          <figcaption>Careers for doctors</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/images/medical-college.jpg" alt="Medical college campus across India">
-          <figcaption>Stronger institutions</figcaption>
-        </figure>
+    <section class="section" id="promise">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">What We Stand For</p>
+          <h2>Careers, colleges, and communities</h2>
+          <p>Five Star is built around the same promise as our mark — people first, talent solutions, and institutions that last.</p>
+        </div>
+        <div class="promise-grid">
+          <article class="promise-card">
+            <h3>Careers for doctors</h3>
+            <p>We help qualified faculty find teaching roles that match specialty, grade, and preferred states — Assistant Professor to Professor, Senior Resident to HOD. You receive curated, NMC-eligible openings instead of mass-forwarded vacancy lists.</p>
+            <ul>
+              <li>Clinical, non-clinical, para-clinical, and super-specialty posts</li>
+              <li>Location, joining timeline, and teaching load taken seriously</li>
+              <li>Confidential handling of your current employment</li>
+            </ul>
+          </article>
+          <article class="promise-card">
+            <h3>Stronger institutions</h3>
+            <p>Medical colleges need the right teacher in the right department before an inspection, not a folder of unverified CVs. We screen against MSR norms, faculty ratios, and the urgency of your academic calendar.</p>
+            <ul>
+              <li>Hard-to-fill Anatomy, Physiology, Forensic Medicine, and Pathology desks</li>
+              <li>Confidential search for Dean, Director, and HOD appointments</li>
+              <li>Coordination through offer, documents, and joining</li>
+            </ul>
+          </article>
+          <article class="promise-card">
+            <h3>Healthier communities</h3>
+            <p>Every stable faculty appointment strengthens undergraduate teaching, patient care in teaching hospitals, and the next generation of doctors. Placement is the work. Better medical education is the outcome.</p>
+            <ul>
+              <li>Longer faculty tenure when the campus fit is right</li>
+              <li>Departments staffed to NMC expectation, not last-minute stopgaps</li>
+              <li>A doctor-led desk that understands both sides of the table</li>
+            </ul>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -226,7 +251,7 @@
           </article>
         </div>
         <div class="jobs-cta">
-          <a class="btn btn-navy" href="#register">Register to apply through Five Star</a>
+          <a class="btn btn-navy" href="#contact">Talk to Five Star to apply</a>
         </div>
       </div>
     </section>
@@ -283,7 +308,7 @@
               <li>Confidential search for Dean, HOD, and senior roles</li>
               <li>People-first coordination through joining</li>
             </ul>
-            <a class="btn btn-gold" href="#register">Discuss a partnership</a>
+            <a class="btn btn-gold" href="#contact">Discuss a partnership</a>
           </div>
           <div class="models">
             <h3>Engagement models</h3>
@@ -332,8 +357,12 @@
     <section class="section" id="about">
       <div class="container about-grid">
         <div class="about-visual">
-          <img src="assets/images/about-faculty.jpg" alt="Medical professor teaching faculty and postgraduate doctors">
           <img class="about-logo" src="assets/images/logo.jpg" alt="Five Star Healthcare Solutions logo">
+          <div class="about-points">
+            <p><strong>Doctor-led consultancy</strong> A placement desk that reads NMC norms, department language, and inspection calendars — not a generic staffing script.</p>
+            <p><strong>Pan-India matching</strong> Faculty conversations across all states and union territories, from pre-clinical posts to super-specialty chairs.</p>
+            <p><strong>People first</strong> Doctors are matched for teaching fit and location. Colleges receive verified profiles, then support through joining.</p>
+          </div>
         </div>
         <div class="about-copy">
           <p class="eyebrow">About Five Star</p>
@@ -383,100 +412,25 @@
       </div>
     </section>
 
-    <section class="section" id="doctors">
+    <section class="section alt" id="contact">
       <div class="container">
         <div class="section-head">
-          <p class="eyebrow">Get Started</p>
-          <h2>Register your requirement</h2>
-          <p>Doctors can share a confidential profile. Colleges can brief a vacancy. Our team responds with a clear next step.</p>
+          <p class="eyebrow">Contact</p>
+          <h2>Talk to Five Star Healthcare Solutions</h2>
+          <p>India's doctor-led faculty placement consultancy. Careers for doctors. Stronger institutions. Healthier communities.</p>
         </div>
-        <div class="register-box" id="register">
-          <div class="tabs">
-            <button class="btn btn-navy is-active" type="button" data-register-tab="doctor">Doctor registration</button>
-            <button class="btn btn-outline" type="button" data-register-tab="college">College requirement</button>
-          </div>
-          <div data-register-panel="doctor">
-            <form data-success="doctor-success">
-              <div class="form-row">
-                <label>Full name<input name="name" required placeholder="Dr. Your Name"></label>
-                <label>Mobile<input name="phone" type="tel" required placeholder="10-digit mobile"></label>
-              </div>
-              <div class="form-row">
-                <label>Email<input name="email" type="email" required placeholder="name@email.com"></label>
-                <label>Highest qualification
-                  <select name="qualification" required>
-                    <option value="">Select</option>
-                    <option>MD / MS</option>
-                    <option>DNB</option>
-                    <option>DM / MCh</option>
-                    <option>MBBS with teaching eligibility</option>
-                    <option>Other</option>
-                  </select>
-                </label>
-              </div>
-              <div class="form-row">
-                <label>Specialty<input name="specialty" required placeholder="e.g. Anatomy, General Medicine"></label>
-                <label>Preferred states<input name="states" placeholder="e.g. Karnataka, Telangana"></label>
-              </div>
-              <label>Position of interest
-                <select name="position">
-                  <option>Assistant Professor</option>
-                  <option>Associate Professor</option>
-                  <option>Professor</option>
-                  <option>Senior Resident</option>
-                  <option>Tutor / Demonstrator</option>
-                  <option>Leadership / HOD</option>
-                </select>
-              </label>
-              <label>Brief note<textarea name="note" placeholder="Experience, current city, joining timeline"></textarea></label>
-              <button class="btn btn-gold" type="submit">Submit doctor profile</button>
-            </form>
-            <div class="success" id="doctor-success">
-              <h3>Registration received</h3>
-              <p>Thank you. Five Star Healthcare Solutions will review your profile and reach out with matched faculty opportunities.</p>
-            </div>
-          </div>
-          <div data-register-panel="college" hidden>
-            <form data-success="college-success">
-              <div class="form-row">
-                <label>College / institution<input name="college" required placeholder="Medical college name"></label>
-                <label>Contact person<input name="contact" required placeholder="Name & designation"></label>
-              </div>
-              <div class="form-row">
-                <label>Email<input name="email" type="email" required></label>
-                <label>Mobile<input name="phone" type="tel" required></label>
-              </div>
-              <div class="form-row">
-                <label>Department / specialty<input name="department" required placeholder="e.g. Pathology"></label>
-                <label>Position level
-                  <select name="level" required>
-                    <option>Assistant Professor</option>
-                    <option>Associate Professor</option>
-                    <option>Professor</option>
-                    <option>Senior Resident / Tutor</option>
-                    <option>Dean / Director / HOD</option>
-                    <option>Multiple roles</option>
-                  </select>
-                </label>
-              </div>
-              <label>Requirement details<textarea name="details" required placeholder="Seats, NMC timeline, number of posts, location"></textarea></label>
-              <button class="btn btn-gold" type="submit">Submit faculty requirement</button>
-            </form>
-            <div class="success" id="college-success">
-              <h3>Requirement received</h3>
-              <p>Thank you for considering Five Star as your faculty recruitment partner. We will connect with a tailored next step.</p>
-            </div>
-          </div>
+        <div class="contact-grid">
+          <article class="contact-card">
+            <h3>If you are a doctor</h3>
+            <p>Share your specialty, qualification, preferred states, and the grade you are targeting. We map your profile to NMC-eligible faculty posts and come back with a short, relevant set of opportunities.</p>
+            <p>Write to us from the college partnership desk or reach the team through the contact details you receive after your first conversation. Your current employment stays confidential.</p>
+          </article>
+          <article class="contact-card">
+            <h3>If you are a medical college</h3>
+            <p>Tell us the department, position level, seat strength, and inspection timeline. We return pre-screened faculty profiles and a clear engagement model — standard placement, retainer, executive search, or annual partnership.</p>
+            <p>Five Star Healthcare Solutions (OPC) Private Limited. Name application dated 26/08/2026 · SRN AC5533507.</p>
+          </article>
         </div>
-      </div>
-    </section>
-
-    <section class="section alt" id="contact">
-      <div class="container section-head">
-        <p class="eyebrow">Contact</p>
-        <h2>Talk to Five Star Healthcare Solutions</h2>
-        <p>India's doctor-led faculty placement consultancy. Careers for doctors. Stronger institutions. Healthier communities.</p>
-        <p style="margin-top:18px;"><a class="btn btn-navy" href="#register">Share your requirement</a></p>
       </div>
     </section>
   </main>
@@ -496,9 +450,8 @@
       </div>
       <div>
         <h4>Work with us</h4>
-        <a href="#doctors">For doctors</a>
+        <a href="#services">For doctors</a>
         <a href="#colleges">For colleges</a>
-        <a href="#register">Register</a>
         <a href="#contact">Contact</a>
       </div>
       <div>
